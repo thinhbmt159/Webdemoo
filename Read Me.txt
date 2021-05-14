@@ -1,0 +1,6 @@
+Important:
+
+- Create Database with name "cart"
+- Then import the attached products.sql file
+
+Demo Simple Shopping Cart Using PHP and MySQL by CTTHANH 

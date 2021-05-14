@@ -10,12 +10,12 @@ Website: https://ctthanh.com
 
 // I left password empty because i do not set password on localhost.
 
-$servername = "localhost";
-$username = "root";
-$password = "mysql";
-$dbname = "cart";
+$servername = "sql6.freesqldatabase.com";
+$username = "sql6411918";
+$password = "N9ZBbXJaMd";
+$dbname = "sql6411918";
 $conn = new mysqli($servername, $username, $password, $dbname);
-$con = mysqli_connect("localhost","root","mysql","cart");
+$con = mysqli_connect("sql6.freesqldatabase.com","sql6411918","N9ZBbXJaMd","sql6411918");
 	if (mysqli_connect_errno()){
 		echo "Failed to connect to MySQL: " . mysqli_connect_error();
 		die();
